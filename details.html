@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Details</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <header>
+        <div class="container-left">
+            <nav class="navbar-expand-sm">
+                    <div class="nav">
+                        <box-icon name="menu" color="#505050" ></box-icon>
+                    </div>
+                    <div class="nav">
+                        <box-icon name="fullscreen" color="#505050" ></box-icon>
+                    </div>
+                    <div class="nav search-box">
+                        <input class="search" type="text" placeholder="What are you looking for?">
+                        <i class="bx bx-search" style="color:#8f8f8f"></i>
+                    </div>
+
+                    <div class="nav-right row">
+                        <div class="profile row">
+                            <img src="img/img_avatar.png" alt="Avatar">
+                            <a > Yousef Mostafa <i class="bx bx-chevron-down"> | </i></a>
+                        </div>
+                        <div class="create">
+                            <i class="bx bxs-plus-circle" style="color: white;"></i><a>  Create  <i class="bx bx-chevron-down"></i>  | </a>
+                        </div>
+                        <div class="lang">
+                            <i class="bx bx-globe"></i> <a>Arabic <i class="bx bx-chevron-down"></i></a>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="sidebar-main-menu">
+        <a class="navbar-brand">
+            <img class="logo" src="img/logo-dark.png"/>
+        </a>
+        <hr>
+        <a class="date row">
+            <i class="bx bx-calendar-alt" style="color:#505050"></i>
+                <h6>10:30 AM</h6>
+                <p>Monday,21 August 2020</p>
+        </a>
+        <hr>
+        <div class="sidebar">
+            <ul class="sidebar-head flex-row">
+                <li class="nav-item">
+                    <i class="bx bx-home-alt"></i>
+                    Dashboard
+                </li>
+                <li class="nav-item">
+                    <i class="bx bxs-user-detail"></i>
+                    Contacts
+                </li><li class="nav-item">
+                    <i class="bx bx-briefcase-alt"></i>
+                    Deals
+                </li><li class="nav-item" onclick="location.href='index.html'">
+                    <a href="#"><i class="bx bx-layer"></i>
+                    Sales</a>
+                </li><li class="nav-item">
+                    <i class="bx bx-clipboard"></i>
+                    Tickets
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-page">
+        <div class="hh row">
+            <h1 style="margin-left: 35px;">Sales</h1>
+            <i class="bx bx-chevron-right" style="color:#505050; font-size: 35px;"></i>
+            <h1>SO1-2554966</h1>
+        </div>
+          
+        <div class="sales-details">
+            <div class="so1">
+                <h4>Sales Details</h4>
+                <br>
+                <div class="block1">
+                    <h5>SO1-2554966</h5>
+                    <p>7 May 2020 | 1:02 PM</p>
+                </div>
+                <div class="block2">
+                    <div class="container px-4">
+                        <div class="row gx-5">
+                            <div class="col">
+                                <h6>Amount</h6>
+                                15,240 $
+                            </div>
+                            <div class="col">
+                                <h6>Stage</h6>
+                                <select name="option">
+                                    <option value="fixed">Completed</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container px-4">
+                        <div class="row gx-5">
+                            <div class="col">
+                                <h6>Invoice number</h6>
+                                155863
+                            </div>
+                            <div class="col">
+                                <h6>Salesman</h6>
+                                Amro Saeed
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container px-4">
+                        <div class="row gx-5">
+                            <div class="col">
+                                <h6>Client</h6>
+                                <img src="img/img_avatar.png" alt="Avatar"> &nbsp; Ahmed Elshekh
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container px-4">
+                        <div class="row gx-5">
+                            <div class="col">
+                                <h6>Order details</h6>
+                                HP Notbook 15s-eq1004nx Laptop
+                                15.6", AMD Ryzen 5-4500U, AMD Radeon Graphics, 256 GB (PCIe SSD)
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container px-4">
+                        <div class="row gx-5">
+                            <div class="col">
+                                <h6>Attachment</h6>
+                                <i class="bx bx-image" style="color:#505050"></i>
+                                <p>2020-12-31 15:31:16
+                                Istiqdam Letter.pdf</p>
+                            </div>
+                            <div class="col">
+                                <h6 style="color: white;">-</h6>
+                                <i class="bx bx-image" style="color:#505050"></i>
+                                <p>2020-12-31 15:31:16
+                                Istiqdam Letter.pdf</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="container px-4">
+                        <div class="row gx-5">
+                            <div class="col">
+                                <h6>Comments</h6>
+                                Need 5 PC Black.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="close-button">
+                        <button type="button" class="btn" style="color: white; background-color: #CF2E26;"
+                        onclick="location.href='index.html'">
+                        <a href="#" style="color: white;">Close</a></button>
+
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        
+
+    </div>
+</body>
+</html>
